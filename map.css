@@ -1,0 +1,31 @@
+iframe {
+    display: block;
+    height: 600px;
+    width: 1690px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    iframe {
+            display: block;
+            height: 535px;
+            width: 537px;
+            padding: 10px;
+            margin-left: auto;
+            margin-right: auto;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    iframe {
+        display: block;
+        height: 600px;
+        width: 537px;
+        padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
